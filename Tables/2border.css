@@ -1,0 +1,20 @@
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    /* remove the border-collapse property and then use border radius */
+    /* border-radius: 5px; */
+    /* Skip the border around the table by leaving out table from the css selector */
+}
+
+/* remove above everything and try this one by one */
+/* th, td{
+    border-style: dotted;
+    border-style: dashed;
+    border-style: double;
+    border-style: groove;
+    border-style: ridge;
+    border-style: inset;
+    border-style: outset;
+    border-style: none;
+    border-style: hidden;
+} */

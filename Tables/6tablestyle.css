@@ -1,0 +1,39 @@
+/* table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+} */
+
+/* for zebra strips */
+/* tr:nth-child(even){
+    color: white;
+    background-color: black;
+} */
+
+/* vertical zebra strips before remove or comment out simple zebra strips css */
+/* td:nth-child(even), th:nth-child(even){
+    color: white;
+    background-color: black;
+} */
+
+/* for combine vertical and horizantal zebra strips then remove above code from comment and dont do any changes the above full code is the code for combination of both strips */
+
+/* Horizontal Dividers */
+/* table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr{
+    border-bottom: 1px solid #ddd;
+} */
+
+/* hoverable table */
+/* table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr{
+    border-bottom: 1px solid #ddd;
+}
+tr:hover{
+    background-color: aquamarine;
+} */

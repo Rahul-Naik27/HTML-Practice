@@ -1,0 +1,28 @@
+/* table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+tr>th{
+    width: 70%;
+} */
+
+/* remove or comment out above css code and do the below to understand spacings and paddings */
+
+table, th, td{
+    border: 2px solid black;
+}
+th, td{
+    padding: 15px;
+    /* now trying to apply to each side one by one  */
+    /* padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px; */
+}
+
+table{
+    border-spacing: 20px;
+}
