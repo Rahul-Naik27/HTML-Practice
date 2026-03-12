@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mumbai{
+            background-color: #3000aa;
+            padding: 30px;
+            color: gold;
+            margin: 30px;
+        }
+        .delhi{
+            background-color: rgb(74, 10, 178);
+            padding: 30px;
+            color: rgb(220, 54, 54);
+            margin: 30px;
+        }
+        .chennai{
+            background-color: yellow;
+            padding: 30px;
+            color: black;
+            margin: 30px;
+        }
+        .mumbai, .chennai, .delhi{
+            /* width: 25%; */
+            /* float: left; */
+            /* display: inline-block; */
+        }
+        .containers{
+            /* display: flex; */
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+        }
+    </style>
+</head>
+<body>
+    <div class="containers">
+            <Div class="mumbai">
+                <h1>Mumbai</h1>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</P>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </Div>
+            <Div class="delhi">
+                <h1>Delhi</h1>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</P>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </Div>
+            <Div class="chennai">
+                <h1>Chennai</h1>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</P>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </Div>
+    </div>
+</body>
+</html>
