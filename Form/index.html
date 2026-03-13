@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+</head>
+<body>
+    <h1>User Data</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>User Personal Information</legend>
+                <label for="firstname">First Name</label> <br>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter your first name"> <br><br>
+
+                <label for="lastname"> Last Name</label><br>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter your last name"><br><br>
+
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email address"><br><br>
+
+                <label for="number">mobile Number : </label>
+                <input type="tel" id="number" name="number" pattern="[0-9]{10}" required><br><br>
+
+                <label>Select your gender : </label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="others" name="gender" value="others">
+                <label for="others">Others</label><br><br>
+
+                <label for="age">Age : </label>
+                <select name="age" id="age">
+                    <option value="under18">under 18</option>
+                    <option value="19">19 year old</option>
+                    <option value="20">20 year old</option>
+                    <option value="gt20">between 21 to 30</option>
+                    <option value="gt30">greater than 30</option>
+                </select><br><br>
+
+                <label for="bio">Bio :</label><br>
+                <textarea name="bio" id="bio" cols="40" rows="3" placeholder="Start writing here"></textarea><br><br>
+
+                <label for="range">Rating to this form : </label>
+                <input type="range" id="range" name="rating" min="1" max="10" value="10"><br><br>
+
+                <input type="checkbox" id="check" name="checkbox" required>
+                <label for="check">check everything is correct</label><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
